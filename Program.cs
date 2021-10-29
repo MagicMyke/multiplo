@@ -14,10 +14,6 @@ namespace Multiplo
             {
                  Console.WriteLine("Ingrese un numero entero:");
                  valor = int.Parse(Console.ReadLine());
-
-                 Console.WriteLine("Ingrese un numero entero:");
-                 valor = int.Parse(Console.ReadLine());
-
                  if (valor % multi == 0)
                  {
                      multi = multi + 1;
@@ -26,7 +22,6 @@ namespace Multiplo
                  Console.Write(multi);
 
                  Console.ReadKey();
-
 
             }
 
