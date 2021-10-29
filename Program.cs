@@ -20,8 +20,13 @@ namespace Multiplo
 
                  if (valor % multi == 0)
                  {
-
+                     multi = multi + 1;
                  } 
+                 Console.Write("Los multiplos del numero ingresado son: ");
+                 Console.Write(multi);
+
+                 Console.ReadKey();
+
 
             }
 
